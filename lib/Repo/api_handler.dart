@@ -1,6 +1,6 @@
 
 import 'package:dio/dio.dart';
-import 'package:users_app/character_model.dart';
+import 'package:users_app/model/character_model.dart';
 
 class DataHandler {
 
