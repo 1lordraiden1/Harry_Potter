@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:users_app/Repo/api_handler.dart';
-import 'package:users_app/screens/character_card.dart';
+import 'package:users_app/common/widgets/character_card.dart';
 
 import '../model/character_model.dart';
 
@@ -34,7 +34,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SingleChildScrollView(
+      body: _isLoading ? Center(child: CircularProgressIndicator()) : SingleChildScrollView(
         child: Padding(
             padding: EdgeInsets.all(15),
             child: Column(

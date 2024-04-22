@@ -64,7 +64,7 @@ class Character {
       hogwartsStaff: json['hogwartsStaff'] ?? '',
       actor: json['actor'] ?? '',
       alive: json['alive'] ?? '',
-      image: json['image'] ?? '',
+      image: json['image'].toString().isEmpty ? 'https://th.bing.com/th/id/OIP.zkXvv0ZbK1WkmIS7uuhVaQAAAA?rs=1&pid=ImgDetMain' : json['image'],
     );
   }
 
