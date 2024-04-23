@@ -1,4 +1,4 @@
-# users_app
+# Harry_Potter app
 
 A new Flutter project to know all about harry potter characters and dive into their detailed info
 
